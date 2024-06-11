@@ -11,9 +11,8 @@ class Program
 {
     static ConcurrentDictionary<string, string> senders = new ConcurrentDictionary<string, string>
     {
-        ["spamkonto696@gmail.com"] = "wzhr ztux jnzf egxp",
-        ["dospamu17@gmail.com"] = "ahrf aikc parg fdhq",
-        ["spamudo4@gmail.com"] = "cgcd qprl xpig apwf"
+        ["yourmail@gmail.com"] = "your_password", //It needs to be app passwords on gmail account you can set it
+        ["yourmail2@gmail.com"] = "another_password"
     };
 
     static string receiverEmail;
